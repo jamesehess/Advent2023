@@ -10,7 +10,7 @@ inputs = []
 numbers = []
 values = []
 
-with open("Day1\Day1Input.txt") as file:
+with open("Day1Input.txt") as file:
     lines = file.readlines()
     for line in lines:
         inputs.append(line.strip())
